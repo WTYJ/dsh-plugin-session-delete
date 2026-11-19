@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session Delete",
+    "description": "Adds a Delete session action to the sidebar session \"...\" menu: after confirmation it permanently removes the session log, derived caches and retrieval data, and clears its workspace accounting."
+  }
+}
