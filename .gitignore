@@ -16,3 +16,7 @@ Thumbs.db
 *.log
 npm-debug.log*
 pnpm-debug.log*
+
+# local agent instructions
+AGENTS.md
+
