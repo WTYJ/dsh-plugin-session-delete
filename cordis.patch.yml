@@ -2,8 +2,8 @@
 #
 # Mounted as a bundle (`dsh.bundle.patch` in package.json), so `dsh plugin add`
 # appends this package to the profile's `dsh.profile.bundles` and this file
-# becomes that layer. No configuration is required: the Host half reads the
-# DSH home from `$DSH_HOME` / `~/.dsh` through @deepseek-ai/dsh-home-paths.
+# becomes that layer. No configuration is required: the Host half resolves the
+# DSH home from plugin config, `$DSH_HOME`, or `~/.dsh` directly.
 #
 # Manual alternative (without `dsh plugin`): add the same `insert` row to the
 # profile's own cordis.patch.yml.

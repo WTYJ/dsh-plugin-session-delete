@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-session-delete",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "DSH sidebar session deletion: a Delete session action in the session row \"...\" menu that permanently removes the session log and its derived records",
   "type": "module",
   "main": "index.js",
@@ -18,6 +18,9 @@
     "locale/*.json",
     "README.md"
   ],
+  "scripts": {
+    "test": "node --test"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",

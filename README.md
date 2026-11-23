@@ -128,7 +128,11 @@ DSH `0.2.1-rc.2` exposes archive (`workspace/archiveSession`) but no delete. Arc
 dsh plugin --profile <profile> add /path/to/dsh-plugin-session-delete
 ```
 
-Or manually: place this directory in the profile's `node_modules` and add the `insert` row shown above to the profile's `cordis.patch.yml`. Restart DSH.
+Or manually:
+
+1. Copy this directory into `~/.dsh/profiles/<profile>/node_modules/`
+2. Append `"dsh-plugin-session-delete"` to `dsh.profile.bundles` in that profile's `package.json` (or add the `insert` entry from `cordis.patch.yml` to the profile's own `cordis.patch.yml`)
+3. Restart DSH
 
 ### Compatibility
 
